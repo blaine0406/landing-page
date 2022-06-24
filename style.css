@@ -1,5 +1,14 @@
+/*
 * {
     border: solid 1px red;
+    font-family: 'roboto', sans-serif;
+}
+
+*/
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -13,6 +22,8 @@
     justify-content: space-between;
     background-color: #1f2937;
     color: white;
+    padding: 0 100px;
+
 }
 
 .logo img {
@@ -29,6 +40,129 @@ a {
 .links {
     display: flex;
     gap: 16px;
-    padding: 16px;
     font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    align-items: center;
+    
+}
+
+.section-a {
+    background-color: #1f2937;
+    color: white;
+    padding: 100px 100px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.section-a1 h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.section-a1 p {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.section-a1 button {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    
+
+}
+
+.section-a2 {
+    display: flex;
+}
+
+.section-a2 img {
+    width: 300px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.section-b {
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+    padding: 100px;
+    gap
+    
+}
+
+.section-b2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.section-b2 img {
+    width: 100px;
+    height: auto;
+    border: solid 3px #3882F6;
+    border-radius: 10px;
+}
+
+.section-c {
+    background-color: #E5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.section-c q {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+.section-c p {
+    text-align: right;
+}
+
+.section-d {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 100px;
+    background-color: #3882F6;
+    border-radius: 15px;
+    color: white;
+    text-align: left;
+}
+
+.section-d button {
+    background-color: #3882F6;
+    border: solid 1px white;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.section-d h1 {
+    margin-bottom: 0px;
+}
+
+.section-d p {
+    margin-top: 0px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
 }
